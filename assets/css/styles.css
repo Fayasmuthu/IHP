@@ -76,7 +76,8 @@ header .header-sticky.active {
 
 .about-title .about-h3,
 .consulations-title .consulations-h3,
-.choose-title .choose-h3{
+.choose-title .choose-h3,
+.blog-header .blog-h3{
     display: inline-block;
     font-size: 14px;
     font-weight: 500;
@@ -509,6 +510,17 @@ header .header-sticky.active {
     justify-content: center;
     align-items: center;
     padding: 50px 0;
+}
+
+.testimonial-title .testimonial-h3{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 60px;
+    margin-bottom: 10px;
 }
 /* ----------------------------------------- */
 
