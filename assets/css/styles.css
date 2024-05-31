@@ -55,6 +55,8 @@ header .header-sticky.active {
 }
 
 /* ------------------------------------------ */
+
+
 .about-image {
     position: relative;
     text-align: start;
@@ -195,6 +197,7 @@ header .header-sticky.active {
 
 .carousel-caption{
     text-align: start !important;
+    padding-bottom: 6.25rem !important;
 }
 
 /* -------------------------- */
@@ -465,7 +468,7 @@ header .header-sticky.active {
     position: relative;
     font-size: 16px;
     color: #fff;
-    width: calc(50% - 10px);
+    width: calc(55% - 55px);
     margin-right: 20px;
     margin-bottom: 20px;
     padding-left: 30px;
@@ -512,7 +515,8 @@ header .header-sticky.active {
     padding: 50px 0;
 }
 
-.testimonial-title .testimonial-h3{
+.testimonial-title .testimonial-h3,
+.service-header .service-h3{
     display: inline-block;
     font-size: 14px;
     font-weight: 500;
@@ -628,3 +632,72 @@ header .header-sticky.active {
 }
 
 /* ----------------------------- */
+
+.testiomial_one-inner {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: auto;
+    display: ruby-text;
+    padding: 28px 0;
+}
+
+.testiomial_one-image img {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+
+@media screen and (max-width: 476px) {
+    /* STYLES HERE */
+}
+
+@media screen and (max-width: 576px) {
+    .about-image::before {
+        width: 206px;
+        height: 265px;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .about-section .row{
+        display: flex !important;
+        flex-direction: column-reverse;
+    }
+
+    .about-image {
+        margin: 98px 0 98px;
+    }
+
+    .about-image figure img {
+        width: 92%;
+    }
+
+    .about-content {
+        padding-left: 0px !important;
+    }
+
+    .counter-box {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        margin: 30px;
+    }
+
+
+}
+
+@media screen and (max-width: 1000px) {
+    /* STYLES HERE */
+}
